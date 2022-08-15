@@ -33,3 +33,14 @@ guess_letters(correct_word)
 
 if __name__ == "__main__":
     guess_letters()
+
+"""1. at the start let the user know how many letters exist
+2a. user to supplies a letter per round
+2b. This letter can be upper or lower case and it should not matter
+2c. more than one letter is invalid, let them try again
+3. Let the user know if their guess appears in the secret word.
+4. Display the partially guessed word, as well as letters that have not been guessed"""
+# Step 1 needs to be done
+# Step 2 is partially done, parts a, b, and c still needs to be done
+# Step 3 is done
+# Step 4 is done
