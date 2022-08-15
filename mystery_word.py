@@ -4,10 +4,18 @@ import random
 #     correct_word = file.read().replace('\n', '')
 
 correct_word = (random.choice(open("words.txt", "r").read().split()))
+# this allows the words in the list to be deciphered
 
-right_word = []
+right_list = []
 wrong_list = []
 # 2 empty list
+# need to define what's a right word
+# need to define what's a wrong word
+
+
+# add function to show how long the word is.
+# random word needs a function to share word length
+"""Use print(correct_word.len()?"""
 
 
 def guess_letters(word):
@@ -39,7 +47,7 @@ if __name__ == "__main__":
 2b. This letter can be upper or lower case and it should not matter
 2c. more than one letter is invalid, let them try again
 3. Let the user know if their guess appears in the secret word.
-4. Display the partially guessed word, as well as letters that have not been guessed"""
+4. Display the partially guessed word letters that have not been guessed"""
 # Step 1 needs to be done
 # Step 2 is partially done, parts a, b, and c still needs to be done
 # Step 3 is done
