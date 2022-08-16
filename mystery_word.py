@@ -20,6 +20,9 @@ wrong_list = []
 
 def guess_letters(word):
     letters_in_correct_word = ["_" for letter in word]
+    length_of_word = len(word)
+    print(f"The length of the word is {length_of_word}")
+    # This is the step for line on.
     tries = 26
     while tries > 0:
         guess = input("Guess a letter: ")
@@ -48,7 +51,7 @@ if __name__ == "__main__":
 2c. more than one letter is invalid, let them try again
 3. Let the user know if their guess appears in the secret word.
 4. Display the partially guessed word letters that have not been guessed"""
-# Step 1 needs to be done
+# Step 1 is done but may want to appear as blocks
 # Step 2 is partially done, parts a, b, and c still needs to be done
 # Step 3 is done
 # Step 4 is done
