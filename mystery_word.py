@@ -23,7 +23,7 @@ def guess_letters(word):
     length_of_word = len(word)
     print(f"The length of the word is {length_of_word}")
     # This is the step for line on.
-    tries = 26
+    tries = 8
     while tries > 0:
         guess = input("Guess a letter: ")
         if guess not in word:
