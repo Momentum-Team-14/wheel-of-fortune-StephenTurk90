@@ -13,16 +13,11 @@ wrong_list = []
 # need to define what's a wrong word
 
 
-# add function to show how long the word is.
-# random word needs a function to share word length
-"""Use print(correct_word.len()?"""
-
-
 def guess_letters(word):
     letters_in_correct_word = ["_" for letter in word]
     length_of_word = len(word)
     print(f"The length of the word is {length_of_word}")
-    # This is the step for line on.
+    # This is the step for counting word length
     tries = 8
     while tries > 0:
         guess = input("Guess a letter: ")
