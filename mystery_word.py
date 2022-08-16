@@ -48,7 +48,8 @@ if __name__ == "__main__":
 2c. more than one letter is invalid, let them try again
 3. Let the user know if their guess appears in the secret word.
 4. Display the partially guessed word letters that have not been guessed"""
-# Step 1 is done but may want to appear as blocks
-# Step 2 is partially done, parts a, b, and c still needs to be done
+# Step 1 is done
+# Step 2 is partially done, b, and c still needs to be done
 # Step 3 is done
 # Step 4 is done
+"""We still need to make the game loop"""
