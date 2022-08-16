@@ -54,13 +54,10 @@ You still have {tries} tries.")
                     print(f"Correct!\n{' '.join(letters_in_correct_word)}")
                     print(f"Your wrong choices so far are: \
 {', '.join(wrong_choices)}\n")
-                    if correct_word == "".join(letters_in_correct_word):
-                        print("You win!")
-
-    play = input("Do you want play again? (y/n)").lower()
-    if (play == 'y'):
-        print(' ')
-        play_game()
+                if correct_word == "".join(letters_in_correct_word):
+                    print(
+                            f'You win!  You got the word \
+"{correct_word}" ')
 
 
 if __name__ == "__main__":
