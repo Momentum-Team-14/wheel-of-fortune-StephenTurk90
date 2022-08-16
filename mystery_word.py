@@ -27,8 +27,7 @@ You have {tries} tries.\n")
             print(f"Your wrong choices so far are: {wrong_choices}\n")
             if tries == 0:
                 print(f'You Lose! The correct answer was: "{correct_word}" ')
-                print("Do you want to play again?\n\
-Choose your first letter to begin.")
+                print("Do you want to play again?\n")
         else:
             for i in range(len(letters_in_correct_word)):
                 if guess == correct_word[i]:
