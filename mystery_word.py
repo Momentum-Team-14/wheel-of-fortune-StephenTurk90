@@ -37,7 +37,7 @@ Choose your first letter to begin.")
             print(f"Your wrong choices so far are: {wrong_choices}\n")
             if correct_word == "".join(letters_in_correct_word):
                 print("You win")
-                return 
+                return
                 # need to make a loop
 
 
