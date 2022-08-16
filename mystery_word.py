@@ -16,9 +16,9 @@ wrong_list = []
 def guess_letters(word):
     letters_in_correct_word = ["_" for letter in word]
     length_of_word = len(word)
-    print(f"The length of the word is {length_of_word}")
-    # This is the step for counting word length
     tries = 8
+    print(f"The length of the word is {length_of_word}. You have {tries} tries")
+    # This is the step for counting word length
     while tries > 0:
         guess = input("Guess a letter: ")
         if guess not in word:
@@ -38,7 +38,7 @@ guess_letters(correct_word)
 
 
 if __name__ == "__main__":
-    guess_letters()
+    guess_letters(correct_word)
 
 """1. at the start let the user know how many letters exist
 2a. user to supplies a letter per round
