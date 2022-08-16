@@ -62,6 +62,13 @@ You still have {tries} tries.")
                     print(
                             f'You win!  You got the word \
 "{correct_word}" ')
+                    print(' ')
+            # my attempt at making a play loop: code lines 66-70
+                # play = input('Do you want to play again?  (y/n) ').lower()
+                    # if (play == 'y'):
+                    # print(' ')
+                    # play_game()
+            # unsure where to place this
 
 
 if __name__ == "__main__":
