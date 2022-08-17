@@ -1,4 +1,12 @@
 import random
+# from colorama import Fore, Back, Style
+
+
+# print(Fore.RED + 'some red text')
+# print(Back.GREEN + 'and with a green background')
+# print(Style.DIM + 'and in dim text')
+# print(Style.RESET_ALL)
+# print('back to normal now')
 
 
 def play_game():
@@ -7,7 +15,7 @@ def play_game():
     letters_in_correct_word = ["_" for letter in correct_word]
     length_of_word = len(correct_word)
     # debug
-    print(correct_word)
+    # print(correct_word)
     # debug end
     wrong_choices = []
     tries = 8
